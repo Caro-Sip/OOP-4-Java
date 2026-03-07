@@ -1,0 +1,39 @@
+# Compiled class files
+*.class
+
+# JAR files
+*.jar
+
+# Package files
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+target/
+bin/
+out/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# Misc
+.classpath
+.project
+.settings/
+*.log
