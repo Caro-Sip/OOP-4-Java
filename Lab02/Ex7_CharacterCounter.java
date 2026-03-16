@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ex5_CharacterCounter {
     static boolean isVowel(char ch) {
         // checking if the char is part of the vowel list
-        return "aeiou".contains(String.valueOf(ch).toLowerCase());
+        return "aeiou".contains(String.valueOf(ch).toUpperCase());
     }
 
     static int countVowels(String textString) {
@@ -18,7 +18,11 @@ public class Ex5_CharacterCounter {
     }
 
     static boolean isConsonant(char ch) {
-        return "bcdfghjklmnpqrstvwxyz".contains(String.valueOf(ch).toLowerCase());
+        int ascii = (int) Character.toUpperCase(ch);
+        for (int i = 65; i <= 90; i++){
+            if (ascii == i) return true;
+        }
+        return false;
     }
 
     static int countConsonants(String textString) {
