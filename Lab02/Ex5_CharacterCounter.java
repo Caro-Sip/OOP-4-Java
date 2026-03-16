@@ -34,6 +34,7 @@ public class Ex5_CharacterCounter {
         int counter = 0;
         for (int i = 0; i < textString.length(); i++){
             char ch = textString.charAt(i);
+            if (ch == ' ') counter++;
         }
         return counter;
     }
