@@ -15,7 +15,7 @@ public class Ex2_Currency {
 
         double converted = (double)value/rielConversion;
 
-        System.out.printf("%d RIELS = %.2f USD", value, converted);
+        System.out.printf("%d RIELS = %.2f USD\n", value, converted);
 
         s.close();
     }

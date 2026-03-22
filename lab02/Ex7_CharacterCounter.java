@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ex7_CharacterCounter {
     static boolean isVowel(char ch) {
         // checking if the char is part of the vowel list
-        return "aeiou".contains(String.valueOf(ch).toUpperCase());
+        return "AEIOU".contains(String.valueOf(ch).toUpperCase());
     }
 
     static int countVowels(String textString) {
