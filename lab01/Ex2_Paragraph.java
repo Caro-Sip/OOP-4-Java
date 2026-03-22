@@ -1,4 +1,4 @@
-package Lab01;
+package lab01;
 
 public class Ex2_Paragraph {
     static void printFormat(String special, String desc){

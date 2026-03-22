@@ -1,4 +1,4 @@
-package Lab01;
+package lab01;
 
 public class Ex5_String {
     static boolean isVowel(char ch) {

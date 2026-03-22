@@ -1,4 +1,4 @@
-package Lab02;
+package lab02;
 
 public class Ex4_SecondsToTime {
     public static void main(String[] args){

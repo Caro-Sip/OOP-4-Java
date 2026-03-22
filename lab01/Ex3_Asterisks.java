@@ -1,4 +1,4 @@
-package Lab01;
+package lab01;
 
 public class Ex3_Asterisks {
     static void printChars(char ch, int count) {

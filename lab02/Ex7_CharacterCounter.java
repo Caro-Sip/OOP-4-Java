@@ -1,8 +1,8 @@
-package Lab02;
+package lab02;
 
 import java.util.Scanner;
 
-public class Ex5_CharacterCounter {
+public class Ex7_CharacterCounter {
     static boolean isVowel(char ch) {
         // checking if the char is part of the vowel list
         return "aeiou".contains(String.valueOf(ch).toUpperCase());
