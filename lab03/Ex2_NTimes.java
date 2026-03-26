@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab032_NTimesInput {
+public class Ex2_NTimes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
