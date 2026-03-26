@@ -1,3 +1,5 @@
+package lab03;
+
 class Department {
     String name;
     
