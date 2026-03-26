@@ -1,3 +1,4 @@
+package lab03;
 import java.util.Scanner;
 
 public class Ex7_StudentManagement {
@@ -22,7 +23,8 @@ public class Ex7_StudentManagement {
         int age = scanner.nextInt();
         scanner.nextLine();
 
-        Student tStudent = new Student(id, name, age);
+        Student tStudent = new Student();
+        tStudent.setValue(id, name, age);
         students[counter] = tStudent;
         System.out.println("A student is added to the list");
     }
@@ -119,12 +121,6 @@ class Student {
 
     public Student(){
     
-    }
-
-    public Student(int id, String name, int age) {
-        this.id = id;
-        this.name = name;
-        this.age = age;
     }
 
     void setValue(int id, String name, int age) {
