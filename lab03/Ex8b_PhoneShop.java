@@ -1,3 +1,5 @@
+package lab03;
+
 class Category {
     String name;
     String description;
