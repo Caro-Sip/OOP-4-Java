@@ -123,5 +123,6 @@ public class Ex5 {
         } while (choice != 4);
 
         sc.close();
+        System.out.println();
     }
 }

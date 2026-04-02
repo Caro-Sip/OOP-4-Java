@@ -30,7 +30,7 @@ public class Song {
     }
 
     public void display(int index) {
-        System.out.println(String.format("| %d | %-20s | %-12s | %-8s | $%-6.2f |", 
-            index, title, singer, length, price));
+        System.out.printf("| %-3d | %-20s | %-15s | %-8s | $%-7.2f |%n", 
+            index, title, singer, length, price);
     }
 }
