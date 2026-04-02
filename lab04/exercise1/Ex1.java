@@ -1,21 +1,7 @@
-package lab04;
+package lab04.exercise1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
-class Student{
-    String id;
-    String name;
-    int age;
-
-    public Student(){}
-
-    public Student(String id, String name, int age){
-        this.id = id;
-        this.name = name;
-        this.age = age;
-    }
-}
 
 public class Ex1 {
     static int counter = 0;
