@@ -23,6 +23,7 @@ public class Ex1_Quadratic {
 
         if (delta < 0){
             System.out.println("Error: roots are complex like your heart");
+            scanner.close();
             return;
         }
         if (delta == 0){
