@@ -1,0 +1,25 @@
+2
+1
+Tola
+Ma
+M
+tola@domain.com
+OOP, C++, Web dev
+100
+2
+2
+Makara
+John
+F
+makara@domain.com
+2
+Computer science
+2
+3
+Peter
+Proneh
+M
+pronh@domain.com
+door guard
+1
+3
