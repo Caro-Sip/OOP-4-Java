@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class Ex6 {
     private static final Scanner SCANNER = new Scanner(System.in);
-    private static final File USER_FILE = new File("./lab05/exercise6/user.txt");
+    private static final File USER_FILE = new File("exercise6/user.txt");
 
     public static void main(String[] args) {
         ensureFile(USER_FILE);

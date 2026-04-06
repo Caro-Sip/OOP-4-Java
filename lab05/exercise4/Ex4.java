@@ -7,7 +7,7 @@ public class Ex4 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        File note = new File("./lab05/exercise4/myNote.txt");
+        File note = new File("exercise4/myNote.txt");
         MyNote myNote = new MyNote(note);
 
         int input;

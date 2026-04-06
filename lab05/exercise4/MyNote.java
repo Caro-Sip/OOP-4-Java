@@ -13,6 +13,13 @@ public class MyNote {
 
     MyNote(File note){
         this.note = note;
+        if (!note.exists()) {
+            try {
+                note.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
         countLines();
     }
 

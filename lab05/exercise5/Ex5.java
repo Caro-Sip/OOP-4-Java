@@ -12,9 +12,9 @@ import java.util.Scanner;
 
 public class Ex5 {
     private static final Scanner SCANNER = new Scanner(System.in);
-    private static final File TEACHER_FILE = new File("./lab05/exercise5/teacher.txt");
-    private static final File STUDENT_FILE = new File("./lab05/exercise5/student.txt");
-    private static final File SECURITY_GUARD_FILE = new File("./lab05/exercise5/securityguard.txt");
+    private static final File TEACHER_FILE = new File("exercise5/teacher.txt");
+    private static final File STUDENT_FILE = new File("exercise5/student.txt");
+    private static final File SECURITY_GUARD_FILE = new File("exercise5/securityguard.txt");
 
     public static void main(String[] args) {
         ensureFile(TEACHER_FILE);
