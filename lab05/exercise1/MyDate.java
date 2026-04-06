@@ -1,4 +1,4 @@
-package lab05.exercise1;
+package exercise1;
 
 import java.util.Calendar;
 import java.util.Date;

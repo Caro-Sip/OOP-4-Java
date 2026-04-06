@@ -1,4 +1,4 @@
-package lab05.exercise3;
+package exercise3;
 
 public class Line extends Point {
     protected Point end;

@@ -1,4 +1,4 @@
-package lab05.exercise3;
+package exercise3;
 
 public class Point {
     protected double x;
