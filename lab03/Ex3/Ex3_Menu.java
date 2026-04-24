@@ -1,4 +1,5 @@
-package lab03;
+package Ex3;
+
 import java.util.Scanner;
 
 public class Ex3_Menu {

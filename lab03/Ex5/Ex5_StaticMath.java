@@ -1,4 +1,5 @@
-package lab03;
+package Ex5;
+
 
 class MathUtils {
     public static double add(double a, double b) {

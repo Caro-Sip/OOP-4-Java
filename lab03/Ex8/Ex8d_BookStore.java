@@ -1,4 +1,5 @@
-package lab03;
+package Ex8;
+
 
 class Author {
     String authorId;

@@ -1,4 +1,5 @@
-package lab03;
+package Ex6;
+
 
 class MathUtilsAdvanced {
     

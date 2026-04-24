@@ -1,4 +1,5 @@
-package lab03;
+package Ex7;
+
 import java.util.Scanner;
 
 public class Ex7_StudentManagement {

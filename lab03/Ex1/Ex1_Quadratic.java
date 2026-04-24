@@ -1,4 +1,5 @@
-package lab03;
+package Ex1;
+
 
 import java.util.Scanner;
 
