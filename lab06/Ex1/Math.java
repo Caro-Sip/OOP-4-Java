@@ -21,25 +21,48 @@ public class Math extends AbstractMath{
 
     @Override
     int roundedNumber(double num){
-        int rounded = 0;
-        // int num1 = (int) num;
-        double numPlus = (int) num + 0.5;
-        // System.out.println(num + " " + numPlus);
-        if(num > numPlus){
-            // System.out.println("Case 1");
-            rounded = (int) num + 1;
-            return rounded;
+        if (num >= 0){
+            return (int) (num +0.5);
         }
-        else {
-            // System.out.println("Case 2");
-            return (int) num;
+        else{
+            return (int) (num - 0.5);
         }
     }
 
     @Override
     int countDistinct(int[] values){
-        int distinct;
-        
-        return distinct;
+        int count=0;
+
+        for(int i=0; i < values.length; i++){
+            boolean isDistinct = true;
+            for(int j=0; j<i; j++){
+                if(values[i] == values[j]){
+                    isDistinct = false;
+                    break;
+                }
+            }
+            if(isDistinct){
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    @Override
+    int decimalToBinary(int decimal){
+        if(decimal == 0){
+            return 0;
+        }
+
+        int binary = 0;
+        int num = java.lang.Math.abs(decimal);
+
+        while(num > 0){
+            binary += (num%2);
+            num /= 2;
+        }
+
+        return binary;
     }
 }
